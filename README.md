@@ -1,2 +1,3 @@
 # rotomdle
-Pagiina para jugar wordle pero basado en pokemon
+
+Pagina para jugar Wordle pero basado en Pokemon.
