@@ -15,10 +15,12 @@ export default function RootLayout(props: { children: ReactNode }) {
 
   return (
     <html lang="es">
-      <body className={`${pressStart.className} flex flex-col justify-between min-h-screen`} 
-            style={{ margin: 0 }}>
+      <body
+        className={`${pressStart.className} flex min-h-screen flex-col`}
+        style={{ margin: 0, minHeight: "100vh" }}
+      >
         <Header />
-        <main>{children}</main>
+        <main className="flex-1 pt-28 md:pt-20">{children}</main>
         <Footer />
       </body>
     </html>

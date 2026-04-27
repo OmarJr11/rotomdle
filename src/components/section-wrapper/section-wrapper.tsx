@@ -21,28 +21,27 @@ export default function SectionWrapper(props: SectionWrapperProps) {
                     <div style={{ backgroundImage: `url(${image})` }} 
                          className={`
                             ${styles.backgroundRow} 
-                            w-full h-full flex flex-row items-center justify-center
+                            w-full h-full flex flex-row items-center justify-center px-3 sm:px-5
                         `}>
                         <div className='
                             flex flex-col 
-                            gap-5 
-                            bg-black/80
-                            p-5
+                            gap-3 sm:gap-5
+                            p-4 sm:p-5
                             rounded-lg
                             items-center justify-center 
-                            w-2/4
+                            md:w-2/4 w-full max-w-[680px]
                         '>
-                            <h2 className='text-center text-[#3367b0]'>{section}</h2>
-                            <p className={`${styles.descriptionText} text-left text-white font-light`}>
+                            <h2 className='text-center text-[#3367b0] text-xl sm:text-2xl'>{section}</h2>
+                            <p className={`${styles.descriptionText} text-left text-white font-light text-xs sm:text-sm`}>
                                 {description}
                             </p>
                             <Link href={Routes.ROTOMDLE} className="
-                                h-12 w-1/3
+                                h-12 w-40
                                 px-4 
                                 inline-flex items-center justify-center
                                 rounded-md 
                                 bg-[#3367b0] 
-                                text-white transition-colors hover:bg-[#2b5796]
+                                text-sm sm:text-base text-white transition-colors hover:bg-[#2b5796]
                             ">
                                 Jugar
                             </Link>

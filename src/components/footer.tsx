@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <footer className="
-            px-8 h-20
+            mt-auto shrink-0 px-8 h-20
             flex items-center justify-center
         ">
             <div className="flex items-center h-full">

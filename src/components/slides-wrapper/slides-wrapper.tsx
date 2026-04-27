@@ -76,7 +76,7 @@ export default function SlidesWrapper() {
                 section={Games.ROTOMDLE}
                 className="section1"
                 description={GamesDescriptions.ROTOMDLE}
-                image="/assets/rotom-bg.jpg" />
+                image="/assets/RotomDex-06.png" />
             <SectionWrapper 
                 section={Games.REGIONDLE}
                 className="section2"
