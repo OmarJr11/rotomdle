@@ -1,0 +1,67 @@
+
+.image {
+  width: min(50%, 520px);
+  height: auto;
+  object-fit: contain;
+  margin-top: 1.25rem;
+  max-height: 60vh;
+  border-radius: 8px;
+}
+
+.section {
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  color: #111827;
+}
+
+.sectionContent {
+  width: 100%;
+}
+
+.sectionContent p {
+  max-width: 40ch;
+  padding: 2rem;
+}
+
+.backgroundRow {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  background-position: center center;
+}
+
+.descriptionText {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0 !important;
+}
+
+.sectionInner {
+  height: 100% !important;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.height {
+  border: dashed 2px grey;
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+
+.section h1 {
+  font-size: clamp(2.5rem, 8vw, 7rem);
+  font-weight: 600;
+  margin: 0 auto;
+}
